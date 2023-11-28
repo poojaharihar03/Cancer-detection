@@ -20,9 +20,6 @@ venv: Virtual environment for managing project dependencies.
   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
   pip install -r requirements.txt
 
-## Dataset
-The dataset includes information about tumor characteristics, such as mean radius, mean texture, mean area, and more. The goal is to predict whether a tumor is malignant or benign based on these features.
-
 ## Data Exploration
 Loaded dataset using scikit-learn's Breast Cancer Wisconsin dataset.
 Explored class labels, feature names, and sample data points.
